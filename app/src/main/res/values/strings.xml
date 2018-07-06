@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Jubbaday Calculator Project</string>
+
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_coma">.</string>
+
+    <string name="button_c">CLEAR</string>
+    <string name="button_equals">=</string>
+    <string name="button_divide">/</string>
+    <string name="button_multiply">*</string>
+    <string name="button_subtraction">-</string>
+    <string name="button_addition">+</string>
+    <string name="button_posNeg">±</string>
+    <string name="button_percent">%</string>
+
+    <string name="txtHistory"></string>
+    <string name="txtCurrentValue">0</string>
+</resources>

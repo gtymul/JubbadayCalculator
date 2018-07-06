@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="jubb.udemy.com.jubbadaycalculator.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_row="0"
+        android:padding="@dimen/marginSmall"
+        android:text="@string/txtHistory"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtSmall"
+        />
+
+    <TextView
+        android:id="@+id/txtCurrentValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_row="1"
+        android:gravity="end"
+        android:padding="@dimen/marginSmall"
+        android:text="@string/txtCurrentValue"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtBig"
+        />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_1"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_2"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_3"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="3"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_4"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="3"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_5"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="3"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_6"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="4"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_7"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="4"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_8"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="4"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_9"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="5"
+        android:backgroundTint="@color/colorNumberButton"
+        android:text="@string/button_0"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_coma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="5"
+        android:backgroundTint="@color/colorComaButton"
+        android:text="@string/button_coma"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/txtMedium"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="6"
+        android:layout_rowSpan="2"
+        android:backgroundTint="@color/colorEqualButton"
+        android:text="@string/button_equals"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtBig"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_divide"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="3"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_multiply"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="4"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_addition"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_subtraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="5"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_subtraction"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_posNeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="6"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_posNeg"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btn_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_row="7"
+        android:backgroundTint="@color/colorOperationButton"
+        android:text="@string/button_percent"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/txtMedium"
+        android:textStyle="bold"
+        tools:targetApi="lollipop" />
+
+</GridLayout>
